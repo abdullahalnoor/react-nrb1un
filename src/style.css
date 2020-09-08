@@ -1,0 +1,55 @@
+h1, p {
+  font-family: Lato;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.nav{
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 0;
+}
+
+button{
+  border: none;
+  padding: 5px 10px;
+}
+
+button:hover{
+  background: #aaa;
+  color: white;
+  cursor: pointer;
+}
+
+.text{
+  position:relative;
+  /* background: #ddd; */
+  padding: 20px;
+  max-height: 1050px;
+   -moz-transition: max-height .5s;
+  -ms-transition: max-height .5s;
+  -o-transition: max-height .5s;
+  -webkit-transition: max-height .5s;
+  transition: max-height .5s;
+  /* transition: 1s ease-out; */
+}
+
+.hello {
+  position:absolute;
+  top:0;
+  left:0;
+  max-height:100%;
+  min-height: 100%;
+  width:100%;
+  transition:  all .3s ease-in-out;
+  
+  background-color: red;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
